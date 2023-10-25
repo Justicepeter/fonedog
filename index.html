@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="./bootstrap-5.3/bootstrap.min.css">
+
+
+    <style>
+        .overlay {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color: #008CBA;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+            opacity: 0.3;
+        }
+
+        .container:hover .overlay {
+            bottom: 0;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        /* .text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+} */
+
+
+        /* .mypavaimage{
+      width: 100%;
+      display: block;
+      height: auto;
+
+    } */
+
+
+
+        /* note that the .5s above is the same thing with 0.5s */
+
+
+
+        /* .ovatxt{
+      overflow: hidden;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      color: white;
+      -ms-transform: translate(-50%, -50%);
+    } */
+    </style>
+
+</head>
+
+<body>
+
+    <header class="">
+        <nav class="nav-bar">
+
+            <ul class="left-content">
+                <li class="first-image"><a href="">Fonedog</a></li>
+            </ul>
+
+            <ul class="rigt-content">
+                <li class="same drop-down">
+                    <a href="" title="products">products</i></a>
+                    <div class="drop-items">
+
+                        <div class="mainbcon">
+                            <div>
+
+                                <ul class="dropfree">
+                                    <li>
+                                        <h1 class="headinga">iOS</h1>
+                                    </li>
+                                    <li><a href="">IOS Data Recovery</a></li>
+                                    <li><a href="">IOS System Recovery</a></li>
+                                    <li><a href="">IOS Data Backup & Recovery</a></li>
+                                    <li><a href="">WhatsApp Transfer</a></li>
+                                    <li><a href="">iphone Cleaner</a></li>
+                                </ul>
+                            </div>
+
+                            <div>
+
+                                <ul class="dropfree">
+                                    <li>
+                                        <h1 class="headinga">Android</h1>
+                                    </li>
+                                    <li><a href="">Android Data Recovery</a></li>
+                                    <li><a href="">Broken Android Data Extraction</a></li>
+                                    <li><a href="">Android Data Backup and Restore</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="macpart">
+
+                                <ul class="dropfree">
+                                    <li>
+                                        <h1 class="headinga">Mac</h1>
+                                    </li>
+                                    <li><a href="">PowerMyMac</a></li>
+                                    <li><a href="">Mac Cleaner</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="uti">
+
+                                <ul class="dropfree">
+                                    <li>
+                                        <h1 class="headinga">Utility</h1>
+                                    </li>
+                                    <li class="flaga"><a href="">FoneDog PDF Compressor <img
+                                                src="./image/android_files/free.png" alt=""></a></li>
+                                    <li><a href="">Phone Transfer</a></li>
+                                    <li><a href="">Computer Data Recovery</a></li>
+                                    <li><a href="">Video Converter</a></li>
+                                </ul>
+                            </div>
+
+                            <div>
+
+                                <ul class="dropfree">
+                                    <li>
+                                        <h1 class="headinga">Online</h1>
+                                    </li>
+                                    <li><a href="">Free Photo Compressor</a></li>
+                                    <li><a href="">Free PDF Compressor</a></li>
+                                    <li><a href="">Free Video Converter</a></li>
+                                    <li><a href="">Free Video Editor </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="down-bluebox">
+
+                            <ul class="box-txt">
+                                <li>
+                                    <h4> something you may need:</h4>
+                                </li>
+                                <li><a href="">Clean up mac>></a></li>
+                                <li><a href="">Recover deleted data>></a></li>
+                                <li><a href="">Backup iphone>></a></li>
+                                <li><a href="">More products</a></li>
+
+
+                            </ul>
+                            <div class="myborderb">
+                                <hr>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </li>
+
+                <li class="same"><a href="">Store</a></li>
+                <li class="same"><a href="">Resources</a></li>
+                <li class="same"><a href="">Support</a></li>
+                <li class="same"><a href=""> <i class="fas fa-search "></i></a>
+
+                </li>
+            </ul>
+
+
+
+        </nav>
+
+        <div class="blue-section">
+
+
+
+
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <!-- <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div> -->
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="big-content">
+                            <div class="box">
+                                <img src="./image/whatsapp-transfer.svg" alt="" width="20%;" height="45vh;">
+                                <h1>WhatsApp Transfer</h1>
+                                <h4>Transfer, Backup, and Restore Your iOS WhatsApp Messages</h4>
+                                <div class="box2">
+                                </div>
+                            </div>
+                            <ul class="downoad-learn-div">
+                                <a href=""> Free download <i class="fas fa-download"></i></a>
+                                <a href="">Learn More <i class="fas fa-angle-right"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="big-content">
+                            <div class="box">
+                                <img src="./image/whatsapp-transfer.svg" alt="" width="20%;" height="45vh;">
+                                <h1>WhatsApp Transfer abcd</h1>
+                                <h4>Transfer, Backup, and Restore Your iOS WhatsApp Messages</h4>
+                                <div class="box2">
+                                </div>
+                            </div>
+                            <ul class="downoad-learn-div">
+                                <a href=""> Free download <i class="fas fa-download"></i></a>
+                                <a href="">Learn More <i class="fas fa-angle-right"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="big-content">
+                            <div class="box">
+                                <img src="./image/whatsapp-transfer.svg" alt="" width="20%;" height="45vh;">
+                                <h1>WhatsApp Transfer </h1>
+                                <h4>Transfer, Backup, and Restore Your iOS WhatsApp Messages</h4>
+                                <div class="box2">
+                                </div>
+                            </div>
+                            <ul class="downoad-learn-div">
+                                <a href=""> Free download <i class="fas fa-download"></i></a>
+                                <a href="">Learn More <i class="fas fa-angle-right"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+            <!-- <div class="container-fluid mt-3">
+                <h3>Carousel Example</h3>
+                <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+            </div> -->
+
+
+
+
+            <div class="next-content">
+
+                <div class="below-boxtxt">
+                    <h1> Bring Solution to Mobile Life</h1>
+                    <p>FoneDog helps you manage your mobile: Recover, Backup, and Transfer data from iPhone & Android.
+                    </p>
+
+                </div>
+
+                <div class="my-flex2">
+                    <div class="boxa">
+                        <div class="boxa-content">
+                            <div class="container">
+                                <img src="./image/android1.svg" alt="" width="30%;" height="45vh;">
+
+                                <h1>Android Data Recovery</h1>
+                                <p>Recover deleted text messages, contacts, call logs, photos, videos, and WhatsApp data
+                                    from Android phone/tablet/SD card.</p>
+                                <ul class="free">
+                                    <li class="load"><a href=""> <i class="fab fa-windows"></i>Free Download</a></li>
+                                    <li class="learn"><a href="">Learm More</a></li>
+                                </ul>
+                                <div class="overlay">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="boxb">
+                        <div class="boxb-content">
+                            <img src="./image/android2.svg" alt="" width="30%;" height="45vh;">
+
+                            <h1>iOS Data Recovery</h1>
+                            <p>Recover deleted text messages, contacts, photos, call history, videos, WhatsApp, and much
+                                more from iPhone.</p>
+                            <ul class="free">
+                                <li class="load"><a href=""> <i class="fab fa-windows"></i>Free download</a></li>
+                                <li class="learn"><a href="">Learn More</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-flex3">
+
+                    <div class="boxc"><img src="./image/android3.svg" alt="" width="30%;" height="45vh;">
+                        <h1>Phone Transfer</h1>
+                        <p>Transfer data among iPhone, Android, and PC. Transfer messages, photos, contacts, videos, and
+                            music on pc.</p>
+                        <ul class="free">
+
+                            <li class="load"><a href=""><i class="fab fa-windows"></i>Free Download</a></li>
+                            <li class="learn"><a href="">Learn More</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="boxd"><img src="./image/android4.svg" alt="" width="30%;" height="45vh;">
+                        <h1>Computer Data Recovery</h1>
+                        <p>Recover deleted images, videos, emails, and documents from hard drives, memory cards, flash
+                            drives, and PC.
+
+                        </p>
+                        <ul class="free">
+                            <li class="load"><a href=""><i class="fab fa-windows"></i>Free download</a></li>
+                            <li class="learn"><a href="">Learn More</a></li>
+                        </ul>
+
+
+                    </div>
+                    <div class="boxe"><img src="./image/android5.svg" alt="" width="30%;" height="45vh;">
+
+                        <h1>Broken Android Data Extraction</h1>
+                        <p>Restore photos, messages, WhatsApp, videos, contacts, and call history from broken Samsung
+                            Phones.</p>
+                        <ul class="free">
+                            <li class="load"><a href=""><i class="fab fa-windows"></i>Free download</a></li>
+                            <li class="learn"><a href="">Learn More</a></li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+            <div class="learn-more">
+                <p class="prod">More Products <i class=" fas fa-circle-arrow-right"></i> </p>
+            </div>
+        </div>
+        <div class="nexta-con">
+
+            <div class="next-section">
+
+
+                <div class="sectiona">
+
+                    <h1 style="color: white;">Most Views</h1>
+                    <!-- <p style="color: white;">Most Views</p> -->
+                    <div>
+
+
+                        <li><i class="fa fa-circle-arrow-right"></i><a class="large-txt" href="">How to Retrieve
+                                Contacts from Samsung with Broken Screen?</a></li>
+
+                        <li><i class="fa fa-circle-arrow-right"></i><a class="large-txt" href="">How to Restore Android
+                                After Factory Reset?</a></li>
+                        <li><i class="fa fa-circle-arrow-right"></i><a class="large-txt" href="">How to Retrieve Photos
+                                from iPhone/iPad After Factory Reset?</a></li>
+
+                        <li><i class="fa fa-circle-arrow-right"></i><a class="large-txt" href="">Folder Disappeared on
+                                Windows 10. How to Get Them Back?</a></li>
+                        <li><i class="fa fa-circle-arrow-right"></i><a class="large-txt" href="">How to Transfer Text
+                                Messages from Android to iPhone?</a></li>
+                        <li><i class="fa fa-circle-arrow-right"></i><a class="large-txt" href="">Why Do My Text Messages
+                                Disappeared from Android?</a></li>
+                        <li><i class="fa fa-circle-arrow-right"></i><a class="large-txt" href="">How to Get Pictures Off
+                                A Broken Samsung?</a> </li>
+                        <li><i class="fa fa-circle-arrow-right"></i><a class="large-txt" href="">How to Recover Deleted
+                                Contacts from iPhone without iCloud?</a>
+                        </li>
+
+
+
+
+                    </div>
+                </div>
+                <div class="sectionb">
+                    <img src="./image/android_files/mostview.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="achieve-section">
+            <h1 class="what">What We Achieve?</h1>
+
+            <div class="another-flex">
+                <div class="box8">
+
+                    <div class="box8txt">
+                        <img src="./image/android_files/achieve1.svg" alt="" width="30%;" height="45vh;">
+                        <h3>5-Star</h3>
+                        <p>Overall Satisfaction Rating</p>
+
+                    </div>
+
+                </div>
+                <div class="box9">
+
+                    <div class="box9txt">
+                        <img src="./image/android_files/achieve2.svg" alt="" width="30%;" height="45vh;">
+                        <h3>120+</h3>
+                        <p>Countries and Regions Worldwide</p>
+
+                    </div>
+
+                </div>
+                <div class="box10">
+
+                    <div class="box10txt">
+                        <img src="./image/android_files/achieve3.svg" alt="" width="30%;" height="45vh">
+                        <h3>600,000+</h3>
+                        <p>Satisfied Customers and Software Installed</p>
+
+                    </div>
+
+                </div>
+                <div class="box11">
+
+                    <div class="box11txt">
+                        <img src="./image/android_files/achieve4.svg" alt="" width="30%;" height="45vh">
+
+                        <h3>300+</h3>
+                        <p>Websites Trusted</p>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="white-section">
+
+            <p class="mention-txt">Where Have We Been Mentioned?</p>
+            <div class="white-flex">
+                <div class="box15">
+                    <img src="./image/android_files/brand1.svg" alt="" width="100%;" height="">
+
+                </div>
+                <div class="box16">
+                    <img src="./image/android_files/brand2.svg" alt="" width="30%;" height="45vh">
+                </div>
+                <div class="box17">
+                    <img src="./image/android_files/brand3.svg" alt="" width="30%;" height="45vh">
+                </div>
+                <div class="box18">
+                    <img src="./image/android_files/brand4.svg" alt="" width="30%;" height="45vh;">
+                </div>
+                <div class="box19">
+                    <img src="./image/android_files/brand5.svg" alt="" width="30%;" height="45vh;">
+                </div>
+                <div class="box20">
+                    <img src="./image/android_files/brand6.svg" alt="" width="30%;" height="45vh;">
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="complete-bluesection">
+            <h1 class="choosewell">Why Choose FoneDog?</h1>
+            <div class="multiplesection-flex mybord">
+
+
+                <div class="myp1">
+                    <img src="./image/android_files/choose1.svg" alt="" width="40%;" height="45vh;">
+                    <h1>Secure</h1>
+                    <p>All data exchange during the payment process is SSL-secured.</p>
+                </div>
+                <div class="myp1">
+                    <img src="./image/android_files/choose2.svg" alt="" width="40%;" height="45vh;">
+                    <h1>Support</h1>
+                    <p>24*7 email support when you have questions while using our product.</p>
+                </div>
+                <div class="myp1">
+                    <img src="./image/android_files/choose3.svg" alt="" width="40%;" height="45vh;">
+                    <h1>Money-Back</h1>
+                    <p>Free trial before your purchase. We offer a 30-day money back guarantee.</p>
+                </div>
+                <div class="myp1">
+                    <img src="./image/android_files/choose4.svg" alt="" width="40%;" height="45vh;">
+                    <h1>Update</h1>
+                    <p>We offer lifetime updates & services for all FoneDog customers.</p>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+        <div class="last-whitesection">
+            <div class="last-sectionflex">
+                <div class="produ">
+                    <h1>Products</h1>
+                    <div><a href=""> iOS Data Recovery Toolkit</a></div>
+                    <div><a href=""> Recover Deleted Call History on Android</a></div>
+                    <div><a href="">Computer Data Recovery</a></div>
+                    <div><a href="">WhatsApp Transfer</a></div>
+                    <div><a href="">Phone Transfer</a></div>
+                    <div><a href="">PowerMyMac</a></div>
+                    <div><a href="">FoneDog PDF Compressor</a></div>
+                    <div><a href="">iPhone Cleaner</a></div>
+                    <div><a href="">Video Converter</a></div>
+
+                </div>
+                <div class="pop">
+                    <h1>Popular</h1>
+                    <div><a href=""> Recover Deleted WhatsApp Messages without Backup</a></div>
+                    <div><a href=""> Recover Deleted Call History on Android</a></div>
+                    <div><a href="">Recover Dazta from Dead Phone</a></div>
+                    <div><a href="">Transfer Android SMS to PC</a></div>
+                    <div><a href="">Recover Deleted Text Messages Free on Android</a></div>
+                    <div><a href="">Recover Deleted iPhone Data without Backup</a></div>
+                    <div><a href="">Recover Text Messages from Broken Android</a></div>
+                    <div><a href="">See Old Messages on Facebook Messenger</a></div>
+                    <div><a href="">The Best Mac Cleaner in 2023</a></div>
+                    <div><a href=""> Fix iMovie Not Enough Disk Space</a></div>
+                </div>
+
+
+                <div class="sup">
+                    <h1> Support</h1>
+
+                    <div><a href="">About</a></div>
+                    <div><a href="">Terms</a></div>
+                    <div><a href=""> Refund</a></div>
+                    <div><a href=""> Privacy</a></div>
+                    <div><a href=""> User Agreement</a></div>
+                    <div><a href=""> Online Help</a></div>
+                    <div><a href=""> Resource</a></div>
+                    <div><a href=""> Sitemap</a></div>
+                    <div><a href="">License Retrieval</a></div>
+                    <div><a href=""> Student Discount</a></div>
+                    <div><a href=""></a>Job opportunities</div>
+
+                </div>
+                <div class="lan">
+                    <h1>Language</h1>
+                    <a href="">English</a>
+                    <select name="" id="">
+                        <option value="">Arabic</option>
+                        <option value="">English</option>
+                        <option value="">English</option>
+                        <option value="">English</option>
+                        <option value="">English</option>
+                        <option value="">English</option>
+                    </select>
+
+                    <form action="">
+                        <p>Get Our Newsletter</p>
+                        <div class="myformlex">
+
+                            <input type="email" placeholder="Your Email">
+                            <input type="submit" value="Submit">
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </header>
+
+
+
+
+
+    <script src="./bootstrap-5.3/popper.min.js"></script>
+    <script src="./bootstrap-5.3/bootstrap.min.js"></script>
+</body>
+
+</html>
